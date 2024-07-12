@@ -21,5 +21,7 @@ framework. Refer to the [paper](https://www.sciencedirect.com/science/article/pi
 ### Convex formulation to optimal control problem
 Any optimal control problem is typically written as minimizing a cost function while satisfying the system dynamics. Here, $`q`$(**x**) represents the state cost, **u**$`(t)`$ represents the required control, and $`R`$ represent the control weight matrix.  This optimization problem in the primal form is nonconvex with respect to optimal value function $`V^\star`$(**x**) and optimal control **u**$`^\star`$**(x)** and can’t be solved very easily. Therefore, we formulate this optimization problem in the dual space of density where the decision variables are $`\rho`$ and $`\bar{\boldsymbol{\rho}}`$. Here, the problem is now a convex problem with respect to $`\rho`$ and $`\bar{\boldsymbol{\rho}}`$ and the required control can be obtained by dividing $`\bar{\boldsymbol{\rho}}`$ with $`\rho`$. 
 
-
+<p align="center">
+<img src="figures/Duality.PNG" width="1000">
+</p>
 
