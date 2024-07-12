@@ -11,7 +11,7 @@ polynomial optimization which is then solved efficiently using a sum-of-squares-
 framework. Refer to the [paper](https://www.sciencedirect.com/science/article/pii/S0005109822007087) for high-level details of the framework.
 
 ## SOS Toolbox
-We use sum-of-squares-based (SOS) optimization in our convex framework to ensure the positivity of the density function $`\rho`$(**x**). We use SOSOPT which is a Matlab toolbox for formulating and solving Sum-of-Squares (SOS) polynomial optimizations. For more information on the SOSOPT toolbox, click [here](https://arxiv.org/abs/1308.1889). `at`
+We use sum-of-squares-based (SOS) optimization in our convex framework to ensure the positivity of the density function $`\rho`$(**x**). We use `sosopt` which is a Matlab toolbox for formulating and solving Sum-of-Squares (SOS) polynomial optimizations. For more information on the `sosopt` toolbox, click [here](https://arxiv.org/abs/1308.1889). The `sosopt` toolbox requires the `multipoly` toolbox to construct the polynomial constraints. `multipoly` can be obtained from [here](http://www.aem.umn.edu/∼AerospaceControl/). `sosopt` also requires one of the following optimization codes for solving semidefinite programs (SDPs): `SeDuMi`, `SDPT3`, `CSDP`, `DSDP`, `SDPAM`, or `SDPLR`. The latest version of `SeDuMi` can be obtained from [here](http://sedumi.ie.lehigh.edu/).
 
 ## Theory
 ### Koopman and Perron-Frobenius (P-F) operators
