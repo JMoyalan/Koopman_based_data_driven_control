@@ -8,5 +8,4 @@ the optimal control problem. The data-driven approximation of the optimization p
 the approximation of the Koopman operator and its dual: the Perron–Frobenius operator, using a
 polynomial basis function. We write the approximate finite-dimensional optimization problem as a
 polynomial optimization which is then solved efficiently using a sum-of-squares-based optimization
-framework. Simulation results demonstrate the efficacy of the developed data-driven optimal control
 framework.
