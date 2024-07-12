@@ -14,6 +14,6 @@ framework.
  Koopman operator is a linear operator in the function space. If **f**(**x**) is the vector field of the dynamics and the $`\psi`$(**x**) is an observable function or lifting function, the Koopman operator is defined w.r.t to the **f**(**x**) and is given as composition of the function $`\psi`$(**x**) with **f**(**x**). The linearity is a simple consequence of the composition $`\psi \;o`$ **f**(**x**) being a linear function  of the lifting function. Similarly, the P-F operator is a linear operator and gives you the evolution of the density of system trajectories in the function space. The Koopman and P-F operators are implemented for discrete-time systems. For continuous-time systems, we use Koopman and P-F generators.
 
 <p align="center">
-<img src="figures/Koopman_and_PF.PNG" width="500">
+<img src="figures/Koopman_and_PF.PNG" width="1000">
 </p>
 
