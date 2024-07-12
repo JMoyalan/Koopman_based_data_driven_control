@@ -16,6 +16,6 @@ framework.
 
 
 <p align="center">
-<img src="figures/Koopman_and_PF.PNG" width="1000">
+<img src="figures/koopman_and_PF.PNG" width="1000">
 </p>
 
