@@ -13,9 +13,12 @@ framework. Refer to the [paper](https://www.sciencedirect.com/science/article/pi
 ## Koopman and Perron-Frobenius (P-F) operators
  Koopman operator is a linear operator in the function space. If **f**(**x**) is the vector field of the dynamics and the $`\psi`$(**x**) is an observable function or lifting function, the Koopman operator is defined w.r.t to the **f**(**x**) and is given as composition of the function $`\psi`$(**x**) with **f**(**x**). The linearity is a simple consequence of the composition $`\psi \;o`$ **f**(**x**) being a linear function  of the lifting function. Similarly, the P-F operator is a linear operator and gives you the evolution of the density of system trajectories in the function space. The Koopman and P-F operators are implemented for discrete-time systems. For continuous-time systems, we use Koopman and P-F generators. The Koopman generator is obtained by taking the inner product of **f**(**x**) and divergence of $`\psi`$(**x**), the lifting function, whereas the P-F generator is obtained by taking the product of **f**(**x**) and $`\rho`$(**x**), the lifting function, and then computing the negative of divergence of the product.
 
-
-
 <p align="center">
 <img src="figures/koopman_and_PF.PNG" width="1000">
 </p>
+
+## Convex formulation to optimal control problem
+Any optimal control problem is typically written as minimizing a cost function while satisfying the system dynamics. Here, $`q`$(**x**) represents the state cost, **u**$`(t)`$ represents the required control, and $`R`$ represent the control weight matrix.  This optimization problem in the primal form is nonconvex with respect to optimal value function $`V^\star`$(**x**) and optimal control **u** and can’t be solved very easily. Therefore, we formulate this optimization problem in the dual space of density where the decision variables are $`\rho`$ and $`\bar{\boldsymbol{\rho}}`$. Here, the problem is now a convex problem with respect to rho and rho_bar and the required control can be obtained by dividing rho_bar with rho. 
+
+
 
