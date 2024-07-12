@@ -11,7 +11,7 @@ polynomial optimization which is then solved efficiently using a sum-of-squares-
 framework. Refer to the [paper](https://www.sciencedirect.com/science/article/pii/S0005109822007087) for high-level details of the framework.
 
 ## SOS Toolbox
-We use sum-of-squares-based (SOS) optimization in our convex framework to ensure the positivity of the density function $`\rho`$(**x**). We use SOSOPT which is a Matlab toolbox for formulating and solving Sum-of-Squares (SOS) polynomial optimizations. For more information on the SOSOPT toolbox, click [here] (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/1308.1889).
+We use sum-of-squares-based (SOS) optimization in our convex framework to ensure the positivity of the density function $`\rho`$(**x**). We use SOSOPT which is a Matlab toolbox for formulating and solving Sum-of-Squares (SOS) polynomial optimizations. For more information on the SOSOPT toolbox, click [here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/1308.1889).
 
 ## Theory
 ### Koopman and Perron-Frobenius (P-F) operators
