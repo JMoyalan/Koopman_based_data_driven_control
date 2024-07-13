@@ -6,3 +6,7 @@
 
 ## Results
 
+<p align="center">
+<img src="figures/VDP_results.PNG" width="1000">
+</p>
+
