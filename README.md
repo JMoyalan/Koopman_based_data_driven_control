@@ -1,4 +1,4 @@
-# Koopman operator-based data-driven optimal control
+## Koopman operator-based data-driven optimal control
 The code in this repository is concerned with the data-driven optimal control of nonlinear systems. We present a
 convex formulation of the optimal control problem with a discounted cost function. We consider
 optimal control problems with both positive and negative discount factors. The convex approach
