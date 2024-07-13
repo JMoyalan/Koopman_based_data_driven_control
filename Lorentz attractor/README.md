@@ -7,5 +7,5 @@
 ## Results
 The following figure showcases the optimal trajectories of the Van der Pol dynamics converging to $`\boldsymbol{X}_T=[0,0]`$. This is obtained by solving for the optimal control in the space of density. Here, $`\gamma`$ represents the discount factor in the cost function. It is observed that higher values of $`\gamma`$ lead to more aggressive control obtained from the optimization as seen in the second and third figures for $`\gamma=0`$ and $`\gamma=1`$ respectively. When $`\gamma=-5`$, the almost everywhere stability criteria do not satisfy the positivity condition which can be observed from the first figure where the trajectories do not converge to $`\boldsymbol{X}_T`$ and get stuck in the limit cycle of the dynamics. 
 <p align="center">
-<img src="../figures/Lorentz_results.PNG" width="1000">
+<img src="../figures/Lorentz_results.PNG" width="750">
 </p>
